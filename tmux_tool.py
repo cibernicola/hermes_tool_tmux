@@ -197,8 +197,6 @@ def tmux_tool(
 # ── SCHEMA ───────────────────────────────────────────────────────────────────
 
 TMUX_SCHEMA = {
-    "type": "function",
-    "function": {
         "name": "tmux",
         "description": (
             "Manage persistent terminal sessions via tmux. Sessions survive Hermes "
@@ -245,7 +243,7 @@ TMUX_SCHEMA = {
             },
             "required": ["action"],
         },
-    },
+
 }
 
 
